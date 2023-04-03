@@ -1,0 +1,31 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net6.0-windows</TargetFramework>
+    <Nullable>enable</Nullable>
+    <UseWPF>true</UseWPF>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="Static\Image\icon\lock.png" />
+    <None Remove="Static\Image\icon\pass.png" />
+    <None Remove="Static\Image\icon\table.png" />
+    <None Remove="Static\Image\icon\user.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="Model\" />
+    <Folder Include="Static\Gif\" />
+    <Folder Include="Static\Image\Background\" />
+    <Folder Include="Static\Sound\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Resource Include="Static\Image\icon\lock.png" />
+    <Resource Include="Static\Image\icon\pass.png" />
+    <Resource Include="Static\Image\icon\table.png" />
+    <Resource Include="Static\Image\icon\user.png" />
+  </ItemGroup>
+
+</Project>
